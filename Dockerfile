@@ -4,4 +4,3 @@ WORKDIR     /app
 COPY        target/shipping-1.0.jar /app/shipping.jar
 COPY        run.sh run.sh
 ENTRYPOINT  [ "bash", "run.sh" ]
-#No Changes
